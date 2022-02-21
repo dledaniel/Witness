@@ -887,44 +887,7 @@ symbol rect {
 /*============================================================================
   Responsive tables, defined with .responsive-table on table element.
 ==============================================================================*/
-@media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  .responsive-table {
-    width: 100%; }
-    .responsive-table thead {
-      display: none; }
-    .responsive-table tr {
-      display: block; }
-    .responsive-table tr,
-    .responsive-table td {
-      float: left;
-      clear: both;
-      width: 100%; }
-    .responsive-table th,
-    .responsive-table td {
-      display: block;
-      text-align: right;
-      padding: 0.625rem;
-      margin: 0; }
-    .responsive-table td::before {
-      content: attr(data-label);
-      float: left;
-      text-align: center;
-      padding-right: 10px; }
 
-  .responsive-table-row + .responsive-table-row,
-  tfoot &gt; .responsive-table-row:first-child {
-    position: relative;
-    margin-top: 10px;
-    padding-top: 0.625rem; }
-    .responsive-table-row + .responsive-table-row::after,
-    tfoot &gt; .responsive-table-row:first-child::after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0.625rem;
-      right: 0.625rem;
-      border-bottom: 1px solid #f6f6f6; } }
 /*================ Links &amp; Buttons ================*/
 .btn,
 .shopify-challenge__container .shopify-challenge__button {
@@ -2785,19 +2748,13 @@ textarea.input-error {
   justify-content: space-between; }
   .page-info-accordion__trigger:focus {
     color: #fed925; }
-    .page-info-accordion__trigger:focus &gt; .page-info__arrow:after {
-      border-color: #fed925; }
   @media screen and (orientation: landscape) {
     .page-info-accordion__trigger {
       display: none; } }
   @media only screen and (min-width: 48em) {
     .page-info-accordion__trigger {
       display: none; } }
-  .page-info-accordion__trigger[aria-expanded="true"] &gt; .page-info__arrow {
-    margin-top: 0.25rem;
-    margin-bottom: 0; }
-    .page-info-accordion__trigger[aria-expanded="true"] &gt; .page-info__arrow:after {
-      transform: rotate(-45deg); }
+
 
 .page-info__arrow {
   margin-left: 0.625rem;
@@ -3709,5 +3666,3 @@ textarea.input-error {
     margin: 0 !important; }
   .page-cart__additionals .shopify-cleanslate [data-testid] {
     margin: 0 !important; }
-</pre></body></html>Xtext/cssUUTF-8_`https://cdn.shopify.com/s/files/1/0412/0133/6481/t/6/assets/theme.scss.css?v=4208932685860312190P            (   :   P   n   }   � x x x x�             
-             x�
