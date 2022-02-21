@@ -2359,10 +2359,10 @@ textarea.input-error {
   grid-row-gap: 1.25rem; }
   @media only screen and (min-width: 48em) {
     .collection__products {
-      grid-template-columns: repeat(4, 1fr); } }
+      grid-template-columns: repeat(2, 1fr); } }
   @media only screen and (min-width: 64.01em) {
     .collection__products {
-      grid-template-columns: repeat(5, 1fr); }
+      grid-template-columns: repeat(2, 1fr); }
       .collection__products .product-card:hover .product-card__thumbnails,
       .collection__products .product-card:focus .product-card__thumbnails {
         opacity: 1; }
