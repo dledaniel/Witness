@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Arial';
-  src: url("ArialMT.woff2") format("woff2"), url("ArialMT.woff") format("woff"), url("ArialMT.svg#ArialMT") format("svg");
+  src: url("fonts/ArialMT.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Arial';
-  src: url("Arial-BoldMT.woff2") format("woff2"), url("Arial-BoldMT.woff") format("woff"), url("Arial-BoldMT.svg#Arial-BoldMT") format("svg");
+  src: url("fonts/Arial-BoldMT.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Arial';
-  src: url("Arial-Black.woff2") format("woff2"), url("Arial-Black.woff") format("woff"), url("Arial-Black.svg#Arial-Black") format("svg");
+  src: url("fonts/Arial-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal; }
 
@@ -742,10 +742,10 @@ a, .login-form__trigger {
   color: black;
   transition: color 0.2s ease-in-out; }
   a:focus, .login-form__trigger:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     a:hover, .login-form__trigger:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 #MainContent {
   padding: 5rem 0.625rem 1.25rem;
@@ -909,16 +909,16 @@ symbol rect {
   padding: 0.5rem 0.625rem;
   font-weight: bold;
   background-color: black;
-  color: #fed925;
+  color: rgb(9, 60, 172);
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; }
   .btn:focus,
   .shopify-challenge__container .shopify-challenge__button:focus {
-    background-color: #fed925;
+    background-color: rgb(9, 60, 172);
     color: black; }
   @media only screen and (min-width: 64.01em) {
     .btn:hover,
     .shopify-challenge__container .shopify-challenge__button:hover {
-      background-color: #fed925;
+      background-color: rgb(9, 60, 172);
       color: black; } }
 
 /*============================================================================
@@ -944,7 +944,7 @@ select {
   input:focus,
   textarea:focus,
   select:focus {
-    border-color: #fed925; }
+    border-color: rgb(9, 60, 172); }
   input[disabled],
   textarea[disabled],
   select[disabled] {
@@ -1145,7 +1145,7 @@ textarea.input-error {
 .site-header__trigger--menu {
   color: black; }
   .site-header__trigger--menu:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 48em) {
     .site-header__trigger--menu {
       display: none; } }
@@ -1209,7 +1209,7 @@ textarea.input-error {
 .site-header__logo {
   margin: 0;
   text-align: center;
-  width: 9.375rem; }
+  width: 7.375rem; }
 
 .site-header__logo-link {
   display: block;
@@ -1221,35 +1221,35 @@ textarea.input-error {
       fill: black;
       transition: all 0.2s ease-in-out; }
     .site-header__logo-link svg .site-logo__background {
-      color: #fed925;
-      fill: #fed925;
+      color: rgb(9, 60, 172);
+      fill: rgb(9, 60, 172);
       transition: all 0.2s ease-in-out; }
   .site-header__logo-link:focus svg .site-logo__letter {
-    color: #fed925;
-    fill: #fed925; }
+    color: rgb(9, 60, 172);
+    fill: rgb(9, 60, 172); }
   .site-header__logo-link:focus svg .site-logo__background {
     color: black;
     fill: black; }
   @media only screen and (min-width: 64.01em) {
     .site-header__logo-link:hover svg .site-logo__letter {
-      color: #fed925;
-      fill: #fed925; }
+      color: rgb(9, 60, 172);
+      fill: rgb(9, 60, 172); }
     .site-header__logo-link:hover svg .site-logo__background {
       color: black;
       fill: black; } }
 
 .site-header__trigger--cart {
-  color: #fed925;
+  color: rgb(9, 60, 172);
   position: relative; }
   .site-header__trigger--cart:focus {
     color: black; }
     .site-header__trigger--cart:focus .site-header__cart-count {
-      color: #fed925; }
+      color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .site-header__trigger--cart:hover {
       color: black; }
       .site-header__trigger--cart:hover .site-header__cart-count {
-        color: #fed925; } }
+        color: rgb(9, 60, 172); } }
   .site-header__trigger--cart.hidden {
     display: none; }
 
@@ -1430,10 +1430,10 @@ textarea.input-error {
     height: 1.5rem;
     width: auto; }
   .mobile-nav__close:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .mobile-nav__close:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .mobile-nav__links {
   margin: 1.25rem 0 0;
@@ -1540,7 +1540,7 @@ textarea.input-error {
     background-color: #f2f2f2; }
 
   25% {
-    background-color: #fed925; } }
+    background-color: rgb(9, 60, 172); } }
 
 #ajax-cart-drawer {
   width: 100%;
@@ -1581,10 +1581,10 @@ textarea.input-error {
     height: 1.5rem;
     width: auto; }
   .ajaxcart__header-close:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .ajaxcart__header-close:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .ajaxcart__product {
   display: -webkit-flex;
@@ -1640,12 +1640,12 @@ textarea.input-error {
   -ms-justify-content: center;
   justify-content: center; }
   .ajaxcart__qty-adjust:focus {
-    color: #fed925;
-    border-color: #fed925; }
+    color: rgb(9, 60, 172);
+    border-color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .ajaxcart__qty-adjust:hover {
-      color: #fed925;
-      border-color: #fed925; } }
+      color: rgb(9, 60, 172);
+      border-color: rgb(9, 60, 172); } }
 
 .ajaxcart__qty-num {
   border: 0;
@@ -1655,10 +1655,10 @@ textarea.input-error {
   margin: 0 0.3125rem;
   padding: 0 0.3125rem; }
   .ajaxcart__qty-num:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .ajaxcart__qty-num:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .ajaxcart__product-price {
   font-weight: 700; }
@@ -2094,7 +2094,7 @@ textarea.input-error {
 .account__accordion-header {
   font-size: 1.125rem; }
   .account__accordion-header:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 48em) {
     .account__accordion-header {
       display: none; } }
@@ -2231,10 +2231,10 @@ textarea.input-error {
   .account__addresses .account-address__checkbox-container input[type="checkbox"] {
     width: auto; }
     .account__addresses .account-address__checkbox-container input[type="checkbox"]:focus + label {
-      color: #fed925; }
+      color: rgb(9, 60, 172); }
     @media only screen and (min-width: 64.01em) {
       .account__addresses .account-address__checkbox-container input[type="checkbox"]:hover + label {
-        color: #fed925; } }
+        color: rgb(9, 60, 172); } }
   .account__addresses .account-address__checkbox-container label {
     padding-left: 0.625rem; }
 
@@ -2271,10 +2271,10 @@ textarea.input-error {
   background-color: transparent;
   padding: 0; }
   .address-edit-toggle:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .address-edit-toggle:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .page-not-found {
   display: -webkit-flex;
@@ -2343,7 +2343,7 @@ textarea.input-error {
   font-size: 0.75rem;
   font-weight: bold;
   text-decoration: underline;
-  color: #fed925; }
+  color: rgb(9, 60, 172); }
 
 .collection-header__link {
   font-size: 0.75rem;
@@ -2428,7 +2428,7 @@ textarea.input-error {
 .page-flag__dot {
   padding: 0 0.625rem; }
   .page-flag__dot.selected .page-flag__trigger {
-    background-color: #fed925; }
+    background-color: rgb(9, 60, 172); }
 
 .page-flag__trigger {
   border: 0;
@@ -2603,16 +2603,16 @@ textarea.input-error {
       margin-left: 0.625rem; } }
   .page-tour__content .bit-widget-container .bit-widget .bit-event .bit-button {
     background-color: black;
-    color: #fed925;
+    color: rgb(9, 60, 172);
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border: 0;
     width: 7.5rem; }
     .page-tour__content .bit-widget-container .bit-widget .bit-event .bit-button:focus {
-      background-color: #fed925;
+      background-color: rgb(9, 60, 172);
       color: black; }
     @media only screen and (min-width: 64.01em) {
       .page-tour__content .bit-widget-container .bit-widget .bit-event .bit-button:hover {
-        background-color: #fed925;
+        background-color: rgb(9, 60, 172);
         color: black; } }
 
 .page--info .page__content {
@@ -2702,10 +2702,10 @@ textarea.input-error {
   .page-info-tab__trigger:not(:last-child) {
     margin-bottom: 0.625rem; }
   .page-info-tab__trigger:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .page-info-tab__trigger:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .page-info__accordion {
   width: 100%; }
@@ -2747,7 +2747,7 @@ textarea.input-error {
   -ms-justify-content: space-between;
   justify-content: space-between; }
   .page-info-accordion__trigger:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media screen and (orientation: landscape) {
     .page-info-accordion__trigger {
       display: none; } }
@@ -2837,14 +2837,14 @@ textarea.input-error {
   align-items: flex-start;
   line-height: 1; }
   .page-info-faq__question:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
     .page-info-faq__question:focus .page-info__arrow:after {
-      border-color: #fed925; }
+      border-color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .page-info-faq__question:hover {
-      color: #fed925; }
+      color: rgb(9, 60, 172); }
       .page-info-faq__question:hover .page-info__arrow:after {
-        border-color: #fed925; } }
+        border-color: rgb(9, 60, 172); } }
   .page-info-faq__question[aria-expanded="true"] .page-info__arrow {
     margin-top: 0.25rem;
     margin-bottom: 0; }
@@ -2902,10 +2902,10 @@ textarea.input-error {
     height: 1.5rem;
     width: auto; }
   .drawer-archive__close:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .drawer-archive__close:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .page-book__tablist--desktop {
   display: none; }
@@ -2929,10 +2929,10 @@ textarea.input-error {
   font-size: 1.125rem;
   margin-bottom: 0.625rem; }
   .page-book-accordion__header:focus {
-    color: #fed925; }
+    color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .page-book-accordion__header:hover {
-      color: #fed925; } }
+      color: rgb(9, 60, 172); } }
 
 .page-book-accordion__content {
   list-style-type: none;
@@ -2954,11 +2954,11 @@ textarea.input-error {
   text-transform: uppercase;
   padding: 0; }
   .page-book-tablist__tab:focus {
-    color: #fed925;
+    color: rgb(9, 60, 172);
     text-decoration: underline; }
   @media only screen and (min-width: 64.01em) {
     .page-book-tablist__tab:hover {
-      color: #fed925;
+      color: rgb(9, 60, 172);
       text-decoration: underline; } }
   .page-book-tablist__tab[aria-selected="true"] {
     text-decoration: underline; }
@@ -3017,7 +3017,7 @@ textarea.input-error {
   padding: 0 0.625rem;
   margin-top: 0.625rem; }
   .page-book-lookbook__dot.selected .page-book-lookbook__trigger {
-    background-color: #fed925; }
+    background-color: rgb(9, 60, 172); }
 
 .page-book-lookbook__trigger {
   border: 0;
@@ -3049,17 +3049,17 @@ textarea.input-error {
       margin-left: 1.25rem; } }
 
 .page-book-lookbook__thumb.selected .page-book-lookbook__thumbnail {
-  border-color: #fed925; }
+  border-color: rgb(9, 60, 172); }
 
 .page-book-lookbook__thumbnail {
   padding: 0;
   font-size: 0;
   border: 0.0625rem solid transparent; }
   .page-book-lookbook__thumbnail:focus {
-    border-color: #fed925; }
+    border-color: rgb(9, 60, 172); }
   @media only screen and (min-width: 64.01em) {
     .page-book-lookbook__thumbnail:hover {
-      border-color: #fed925; } }
+      border-color: rgb(9, 60, 172); } }
 
 .page-book-tab__video {
   position: relative;
@@ -3179,7 +3179,7 @@ textarea.input-error {
 .article-carousel__dot {
   padding: 0 0.625rem; }
   .article-carousel__dot.selected .article-carousel__trigger {
-    background-color: #fed925; }
+    background-color: rgb(9, 60, 172); }
 
 .article-carousel__trigger {
   border: 0;
@@ -3235,11 +3235,11 @@ textarea.input-error {
     width: 1.25rem;
     background: transparent; }
     .product__image-carousel .flickity-prev-next-button:focus {
-      color: #fed925;
+      color: rgb(9, 60, 172);
       box-shadow: none; }
     @media only screen and (min-width: 64.01em) {
       .product__image-carousel .flickity-prev-next-button:hover {
-        color: #fed925;
+        color: rgb(9, 60, 172);
         box-shadow: none; } }
     .product__image-carousel .flickity-prev-next-button[disabled] {
       display: none; }
@@ -3403,7 +3403,7 @@ textarea.input-error {
   font-family: Arial, sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
-  color: #fed925;
+  color: rgb(9, 60, 172);
   text-transform: uppercase;
   margin: 0 auto;
   transition: all 0.3s ease-in-out; }
@@ -3523,12 +3523,12 @@ textarea.input-error {
     -ms-justify-content: center;
     justify-content: center; }
     .page--cart .js-qty__adjust:focus {
-      color: #fed925;
-      border-color: #fed925; }
+      color: rgb(9, 60, 172);
+      border-color: rgb(9, 60, 172); }
     @media only screen and (min-width: 64.01em) {
       .page--cart .js-qty__adjust:hover {
-        color: #fed925;
-        border-color: #fed925; } }
+        color: rgb(9, 60, 172);
+        border-color: rgb(9, 60, 172); } }
   .page--cart .js-qty__num {
     border: 0;
     width: 1.875rem;
@@ -3537,10 +3537,10 @@ textarea.input-error {
     margin: 0 0.3125rem;
     padding: 0 0.3125rem; }
     .page--cart .js-qty__num:focus {
-      color: #fed925; }
+      color: rgb(9, 60, 172); }
     @media only screen and (min-width: 64.01em) {
       .page--cart .js-qty__num:hover {
-        color: #fed925; } }
+        color: rgb(9, 60, 172); } }
 
 .page-cart__title {
   margin: 0 0 1.25rem;
