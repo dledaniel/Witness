@@ -1896,7 +1896,7 @@ textarea.input-error {
     #cae2e4  70%,
     rgba(0, 128, 172, 0) 70.3%
   );
-  background-size: 20%;
+  background-size: 20% 20%;
   opacity: 1;}
   @media only screen and (min-width: 64.01em) {
     .homepage-image-static-panel__text {
