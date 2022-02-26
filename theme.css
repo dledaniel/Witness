@@ -1178,9 +1178,7 @@ textarea.input-error {
   padding: 0;
   list-style-type: none;
   width: 100%;
-  display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
   -ms-flex-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -1192,6 +1190,10 @@ textarea.input-error {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between; }
+@media only screen and (min-width: 48em){
+  .site-header__links{
+    display: -webkit-flex;
+    display: flex; }}
 
 /* .site-header__link-item {
   display: none; }
