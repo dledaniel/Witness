@@ -1111,9 +1111,9 @@ textarea.input-error {
   white-space: nowrap; }
 
 .site-header {
-  display: -webkit-flex;
+  /* display: -webkit-flex; */
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
@@ -1126,6 +1126,8 @@ textarea.input-error {
   padding: 0.9375rem 0.625rem; }
   @media only screen and (min-width: 48em) {
     .site-header {
+      display: -webkit-flex;
+      display: flex;
       padding: 1.875rem 0.625rem; } }
 
 .site-header__trigger-container {
@@ -1151,9 +1153,7 @@ textarea.input-error {
       display: none; } }
 
 .site-header__nav {
-  display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
   -ms-flex-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -1168,6 +1168,10 @@ textarea.input-error {
   -ms-flex: 1;
   flex: 1;
   max-width: 56.25rem; }
+@media only screen and (min-width: 48em){
+  .site-header__nav{
+    display: -webkit-flex;
+    display: flex; }}
 
 .site-header__links {
   margin: 0;
@@ -1185,26 +1189,23 @@ textarea.input-error {
   align-items: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
-  justify-content: center; }
-  @media only screen and (min-width: 48em) {
-    .site-header__links {
-      -webkit-justify-content: space-between;
-      -ms-justify-content: space-between;
-      justify-content: space-between; } }
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between; }
 
-.site-header__link-item {
+/* .site-header__link-item {
   display: none; }
   @media only screen and (min-width: 48em) {
     .site-header__link-item {
-      display: block; } }
+      display: block; } } */
 
 .site-header__link {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 900;
   text-transform: uppercase; }
-  @media only screen and (min-width: 64.01em) {
+  /* @media only screen and (min-width: 64.01em) {
     .site-header__link {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; } } */
 
 .site-header__logo {
   margin: 0;
@@ -1402,11 +1403,11 @@ textarea.input-error {
   width: 3.125rem; }
 
 /*================ Mobile Nav ================*/
-.mobile-nav__drawer {
+/* .mobile-nav__drawer {
   padding: 0.625rem; }
   @media only screen and (min-width: 48em) {
     .mobile-nav__drawer {
-      padding: 1.25rem 0.625rem; } }
+      padding: 1.25rem 0.625rem; } } */
 
 .mobile-nav__header {
   display: -webkit-flex;
